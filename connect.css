@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(81, 17, 17);
+    background-image: url('download\ \(2\).jpeg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color: rgb(0, 0, 0);
+    border : 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+
+    background-color: azure;
+    border-radius: 50%;
+    border: 5px solid transparent;    
+}
+
+.red-piece{
+    background-color: rgb(234, 30, 30);
+}
+
+.yellow-piece{
+    background-color: rgba(255, 255, 0, 0.942);
+}
